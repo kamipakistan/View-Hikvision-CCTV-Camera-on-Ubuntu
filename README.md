@@ -1,6 +1,6 @@
 # How to View Hikvision CCTV Camera on Ubuntu Using Firefox Web Browser
 
-## 1. Install Wine on Ubuntu 20.04.4 LTS
+# 1. Install Wine on Ubuntu 20.04.4 LTS
 
 To view the Hikvision CCTV camera web interface on Ubuntu, we will use Wine to run Internet Explorer in Firefox using a plugin. Please follow these steps to install Wine on Ubuntu 20.04.4 LTS:
 
@@ -58,4 +58,46 @@ It is recommended to reboot your system after installing Wine:
 sudo reboot
 ```
 
-## 2. View Hikvision CCTV Camera on Ubuntu Using Firefox Web
+# 2. View Hikvision CCTV Camera on Ubuntu Using Firefox Web Browser
+To view the Hikvision CCTV camera on Ubuntu using Firefox web browser, follow these steps:
+
+## Step 1: Download FirefoxPortableESR
+Download the FirefoxPortableESR software using the following link in your system:
+
+[FirefoxPortableESR_31.7.0_English.paf.exe](https://sourceforge.net/projects/portableapps/files/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%20ESR%2C%20Portable%20Edition%2031.7.0/FirefoxPortableESR_31.7.0_English.paf.exe/)
+
+## Step 2: Open Terminal and Switch Directory
+Open the terminal and navigate to the directory where you have downloaded the FirefoxPortableESR .exe file.
+
+## Step 3: Execute FirefoxPortableESR file
+Use the following command to execute the FirefoxPortableESR file using Wine:
+```
+wine FirefoxPortableESR_31.7.0_English.paf.exe
+```
+
+## Step 4: Run FirefoxPortableESR
+Change the current working directory to the FirefoxPortableESR directory and run the following command:
+```
+wine FirefoxPortable.exe
+```
+
+## Step 5: Setup Network with CCTV IP Camera
+Ensure that your computer is on the same network as the Hikvision CCTV IP camera.
+
+## Step 6: Open Your IP Camera
+Access your Hikvision CCTV IP camera by entering its IP address in a web browser.
+
+## Step 7: Login to Hikvision Website
+After the website loads, a login window will appear. Enter the complete `IP address` of your camera in the web browser opened in `Step 4`. Then, insert your camera's `username` and `password` in the login window.
+
+## Step 8: Download Plugin
+Download the required plugin and place it in the `FirefoxPortableESR/Data/Plugins` directory.
+
+## Step 9: Run the Downloaded Plugin
+Run the downloaded plugin by double-clicking on it or using another method.
+
+Refresh your browser, and now you should see your Hikvision CCTV camera feed working fine.
+
+Please note that the above method uses an older version of Firefox (31.7.0) in a portable manner using Wine. You can use the latest version of Firefox and Hikvision's official software for better performance and security.
+
+
