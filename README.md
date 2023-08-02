@@ -1,4 +1,5 @@
 # How to View Hikvision CCTV Camera on Ubuntu Using Firefox Web Browser
+<img src = "CCTV_CAMERA_FOOTAGE.png">
 
 ### About
 
