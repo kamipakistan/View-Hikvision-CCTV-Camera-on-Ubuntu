@@ -8,7 +8,7 @@ This repository aims to assist Ubuntu users in easily accessing their Hikvision 
 
 ### Contents
 
-- **Instruction Guide**: The repository contains a comprehensive [INSTRUCTION GUID](INSTRUCTIONS.md) that outlines the steps to install Wine on Ubuntu, download the required Firefox version, and access the Hikvision CCTV camera web interface using a plugin.
+- **Instruction Guide**: The repository contains a comprehensive [INSTRUCTION GUIDE](INSTRUCTIONS.md) that outlines the steps to install Wine on Ubuntu, download the required Firefox version, and access the Hikvision CCTV camera web interface using a plugin.
 
 - **Support**: The repository provides a support section where users can find answers to frequently asked questions, troubleshoot common issues, and seek help from the community.
 
